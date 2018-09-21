@@ -24,7 +24,6 @@ Una vez termiando, ejecutar el comando ***ng serve -o*** el cual iniciara un ser
 - **e2e --** Manejo de pruebas unitarias o integración (se ejecutan automaticamente)
 - **node_modules --** paquetes instalados que requiere nodejs, por ejemplo: se encuentran todos los componentes para que se pueda ejecutar angular, contiene el server para ejecutar la aplicación, demas paquetes que requieramos para la funcionalidad de nuestra aplicacion (es equivalente al m2 de maven, no es necesario versionarla).  
 - **src --** codigo de la palicacion
--
 - **.editorconfig --** archivo para configuraciones del editor que cuando se inice la aplicacion tomara en cuenta los que indique, por el ejmplo: encodig , identacion de espacios, etc.
 - **angular.json --** indica al compilador de angular que y como funciona nuestra aplicacion, normalmente aqui definimos estilos, assets o scripts js de apoyo para la aplicacion.
 - **package-lock.json --** indica a nodejs como fue generado el package.json, se genera automaticamente conforme instalamos paquetes.
